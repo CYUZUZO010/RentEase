@@ -15,6 +15,7 @@ export default function ContactForm() {
     subject: "",
     message: "",
   })
+  //the form of the contacts page 
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
@@ -95,7 +96,7 @@ export default function ContactForm() {
           className="mt-1.5"
         />
       </div>
-
+      {/*Hndling the message passing to the oewner*/}
       <div>
         <Label htmlFor="message">Message</Label>
         <Textarea
