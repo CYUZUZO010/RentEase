@@ -28,17 +28,17 @@ export default async function LoginPage() {
         <div className="bg-card border border-border rounded-xl p-8 shadow-lg">
           <form action={login} className="space-y-6">
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email">Email:</Label>
               <Input id="email" name="email" type="email" placeholder="you@example.com" required />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
+              <Label htmlFor="password">Password:</Label>
               <Input id="password" name="password" type="password" placeholder="••••••••" required />
             </div>
 
             <div className="flex items-center justify-between text-sm">
-              <Link href="/forgot-password" className="text-primary hover:underline">
+              <Link href="/forgot-password" className="text-primary hover:underline cursor-pointer">
                 Forgot password?
               </Link>
             </div>
@@ -50,7 +50,7 @@ export default async function LoginPage() {
 
           <div className="mt-6 text-center text-sm">
             <span className="text-muted-foreground">Don&apos;t have an account? </span>
-            <Link href="/register" className="text-primary hover:underline font-medium">
+            <Link href="/register" className="text-primary hover:underline font-medium cursor-pointer">
               Sign up
             </Link>
           </div>
