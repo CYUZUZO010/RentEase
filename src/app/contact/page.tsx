@@ -18,7 +18,7 @@ export default async function AboutPage() {
            <Link href="/" className="cursor-pointer">
              <BackButton />
            </Link>
-            
+            {/*How to get in contact with us.*/
           </div>
           {/* Hero Section */}
           <div className="text-center mb-16">
