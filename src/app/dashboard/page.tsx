@@ -39,7 +39,7 @@ export default async function DashboardPage() {
               <div>
                 <h1 className="text-4xl font-bold mb-2">
                   Welcome back,{" "}
-                  <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-primary to-accent bg-clip-text">
                     {user.name}
                   </span>
                 </h1>
