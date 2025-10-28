@@ -3,7 +3,7 @@ import { Shield, Zap, Heart, TrendingUp } from "lucide-react"
 const features = [
   {
     icon: Zap,
-    title: "Experience Expertise",
+    title: "Experience & Expertise",
     description: "Our team brings years of real estate knowledge to help you find the perfect rental property.",
   },
   {
