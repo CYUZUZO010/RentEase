@@ -1,6 +1,7 @@
 import postgres from "postgres"
 
 const DB_URL = process.env.DATABASE_URL ?? "postgres://postgres:postgres@localhost:5432/house_rental"
+//the real url of the database
 
 export const sql = postgres(DB_URL)
 
@@ -20,7 +21,7 @@ export type User = {
   id: string
   email: string
   name: string | null
-  role: "RENTER" | "OWNER"
+  role: "RENTER" | "OWNER"//the roles that are availabel
   password: string
   createdAt: Date
   updatedAt: Date
