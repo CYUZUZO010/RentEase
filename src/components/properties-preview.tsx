@@ -27,7 +27,7 @@ const featuredProperties = [
   {
     id: 3,
     title: "Luxury Penthouse Suite",
-    location: "Uptown, Skyline District",
+    location: "DownTown, Kigali City",
     price: 5500,
     bedrooms: 4,
     bathrooms: 3,
@@ -46,7 +46,7 @@ export function PropertiesPreview() {
               Our Top{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Properties</span>
             </h2>
-            <p className="text-muted-foreground text-lg">Handpicked properties that match your lifestyle</p>
+            <p className="text-muted-foreground text-lg">Handpicked properties that match your lifestyle taste</p>
           </div>
           <Button variant="outline" asChild className="hidden sm:flex bg-transparent border-3">
             <Link href="/properties">
