@@ -13,7 +13,7 @@ export function Footer() {
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">RentEase</span>
             </Link>
             <p className="text-sm text-muted-foreground text-pretty">
-              Your trusted partner in finding the perfect rental property. 
+              Your trusted partner in finding your perfect rental property. 
             </p>
             <div className="flex gap-4 mt-9">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
