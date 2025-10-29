@@ -22,7 +22,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-xl text-pretty ">
-              Discover exceptional rental properties tailored to your lifestyle.
+              Discover exceptional rental properties perferred for your lifestyle.
               From modern apartments to luxury homes, find your ideal space with
               ease.
             </p>
@@ -41,7 +41,7 @@ export function HeroSection() {
                 asChild
                 className="text-base bg-transparent"
               >
-                <Link href="/register">List Your Property</Link>
+                <Link href="/register">List Your Property:</Link>
               </Button>
             </div>
 
