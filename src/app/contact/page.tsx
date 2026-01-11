@@ -83,7 +83,6 @@ export default async function AboutPage() {
             </div>
 
 
-          {/* Story Section */}
           <div className="bg-gradient-to-br from-primary/5 to-accent/5 border border-border rounded-2xl p-8 md:p-12">
               <h2 className="text-3xl font-bold mb-6">Send Us a Message</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
