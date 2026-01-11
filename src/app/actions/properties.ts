@@ -7,7 +7,6 @@ import { redirect } from "next/navigation";
 import { randomUUID } from "crypto";
 
 
-// CREATE PROPERTY
 
 export async function createProperty(formData: FormData) {
   const user = await requireOwner();
