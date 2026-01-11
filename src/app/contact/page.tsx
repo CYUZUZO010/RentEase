@@ -45,7 +45,6 @@ export default async function AboutPage() {
             </ul>
           </div>
 
-          {/* Values Grid */}
           <h2 className="text-3xl font-bold mb-8 text-center">Why Reach Out to Us?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
               <div className="bg-card border border-border rounded-xl p-6 text-center">
