@@ -91,7 +91,6 @@
   border-color: rgb(var(--color-border));
 }
 
-/* Body with Lawrencium-style dark blue gradient */
 body {
   background: linear-gradient(
     180deg,
