@@ -49,7 +49,6 @@ export async function register(formData: FormData) {
     },
   })
 
-  // const user = users[0]
 
   // Create session
   await createSession(user.id)
