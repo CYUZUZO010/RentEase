@@ -31,6 +31,7 @@ export async function createProperty(formData: FormData) {
     !imageUrl
   ) {
     return { error: "All fields are required" };
+    
   }
 
   const id = randomUUID();
