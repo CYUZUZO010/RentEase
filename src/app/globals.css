@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Root Variables */
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.398 0.07 227.392);
