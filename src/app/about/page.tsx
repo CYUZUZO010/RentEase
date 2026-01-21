@@ -5,8 +5,6 @@ import { BackButton } from "@/components/ui/back-button"
 import { Building2, Users, Shield, Award } from "lucide-react"
 import Link from "next/link"
 
-
-
 export default async function AboutPage() {
   const user = await getCurrentUser()
 
