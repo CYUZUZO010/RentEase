@@ -43,7 +43,7 @@ export default async function AboutPage() {
             </p>
           </div>
 
-          {/* Values Grid */}
+ 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             <div className="bg-card border border-border rounded-xl p-6 text-center">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
