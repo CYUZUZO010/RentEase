@@ -31,7 +31,6 @@ export default async function AboutPage() {
             </p>
           </div>
 
-          {/* Mission Section */}
           <div className="mb-16 bg-card border border-border rounded-2xl p-8 md:p-12">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
