@@ -11,6 +11,7 @@ export default async function LoginPage() {
   const user = await getCurrentUser()
   if (user) {
     redirect(user.role === "OWNER" ? "/dashboard" : "/properties")
+    
   }
 
   return (
