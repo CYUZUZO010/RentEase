@@ -21,7 +21,7 @@ export type User = {
   id: string
   email: string
   name: string | null
-  role: "RENTER" | "OWNER"//the roles that are availabel
+  role: "RENTER" | "OWNER"
   password: string
   createdAt: Date
   updatedAt: Date
