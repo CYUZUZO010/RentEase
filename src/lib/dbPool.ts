@@ -1,4 +1,4 @@
-// src/lib/dbPool.ts
+
 import { Pool } from "pg";
 
 // Single shared pool
