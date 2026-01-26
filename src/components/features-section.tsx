@@ -19,6 +19,7 @@ const features = [
   },
   {
     icon: TrendingUp,
+    
     title: "Market Insights",
     description: "Stay informed with real-time market data and competitive pricing analysis.",
   },
