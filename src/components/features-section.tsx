@@ -12,7 +12,6 @@ const features = [
     title: "Integrity",
     description: "We prioritize transparency and honesty in every transaction, ensuring your peace of mind.",
   },
-  
   {
     icon: Heart,
     title: "Personalized Service",
