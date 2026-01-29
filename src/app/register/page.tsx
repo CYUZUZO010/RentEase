@@ -21,6 +21,7 @@ export default async function RegisterPage({ searchParams }: { searchParams?: { 
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2 text-2xl font-bold mb-2">
             <Building2 className="h-8 w-8 text-primary" />
+            
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">RentEase</span>
           </Link>
           <h1 className="text-3xl font-bold mt-4">Create Account</h1>
