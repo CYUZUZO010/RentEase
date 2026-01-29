@@ -8,7 +8,6 @@ import Link from "next/link"
 import { getCurrentUser } from "@/lib/auth"
 import { redirect } from "next/navigation"
 
-
 export default async function RegisterPage({ searchParams }: { searchParams?: { error?: string } }) {
   const user = await getCurrentUser()
   if (user) {
