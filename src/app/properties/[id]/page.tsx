@@ -17,6 +17,7 @@ export default async function PropertyDetailPage({
   const { id } = await params
 
   const properties = (await sql`
+  
     SELECT 
       p.*,
       json_build_object('id', u.id, 'name', u.name, 'email', u.email) as owner
