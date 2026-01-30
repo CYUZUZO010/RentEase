@@ -18,6 +18,7 @@ export default async function EditPropertyPage({
 
   const properties = (await sql`
     SELECT * FROM properties WHERE id = ${id} LIMIT 1
+    
   `) as Property[];
 
   if (properties.length === 0) {
