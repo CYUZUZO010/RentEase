@@ -8,6 +8,7 @@ import { Bed, Bath, Maximize, MapPin, Mail, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
+
 export default async function PropertyDetailPage({
   params,
 }: {
