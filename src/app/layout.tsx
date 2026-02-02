@@ -12,6 +12,7 @@ const lato = Lato({
   weight: ["300", "400", "700", "900"],
 });
 
+
 export const metadata: Metadata = {
   title: "RentEase - Find Your Perfect Property",
   description:
