@@ -8,6 +8,7 @@ import Link from "next/link"
 export default async function AboutPage() {
   const user = await getCurrentUser()
 
+  
   return (
     <div className="min-h-screen bg-background">
       <Navbar user={user} />
