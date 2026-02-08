@@ -28,6 +28,7 @@ interface DashboardPropertyCardProps {
   }
 }
 
+
 export function DashboardPropertyCard({ property }: DashboardPropertyCardProps) {
   const [isDeleting, setIsDeleting] = useState(false)
 
