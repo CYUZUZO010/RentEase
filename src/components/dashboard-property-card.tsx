@@ -41,7 +41,6 @@ export function DashboardPropertyCard({ property }: DashboardPropertyCardProps) 
   const handleToggleAvailability = async () => {
     await togglePropertyAvailability(property.id)
   }
-
   return (
     <div className="rounded-xl overflow-hidden bg-card border border-border">
       <div className="relative h-48 overflow-hidden">
