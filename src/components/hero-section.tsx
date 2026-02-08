@@ -27,7 +27,7 @@ export function HeroSection() {
               ease.
             </p>
 
-            {/* CTA Buttons */}
+         
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild className="text-base border-2">
                 <Link href="/properties">
