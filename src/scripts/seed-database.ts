@@ -13,7 +13,7 @@ async function main() {
       email: "owner@rentease.com",
       name: "John Owner",
       role: "OWNER",
-      password: "hashed_password_here", // In production, use proper password hashing
+      password: "hashed_password_here",
     },
   })
 
