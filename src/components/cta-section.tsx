@@ -3,8 +3,6 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export function CTASection() {
-  
-  
   return (
     <section className="py-24 bg-gradient-to-br from-primary/10 via-accent/5 to-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
