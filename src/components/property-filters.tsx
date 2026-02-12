@@ -45,7 +45,7 @@ export function PropertyFilters() {
         <h2 className="text-lg font-semibold">Filters</h2>
       </div>
 
-      {/* Search */}
+   
       <div className="space-y-2">
         <Label htmlFor="search">Search</Label>
         <div className="relative">
@@ -60,7 +60,7 @@ export function PropertyFilters() {
         </div>
       </div>
 
-      {/* Price Range */}
+    
       <div className="space-y-2">
         <Label>Price Range</Label>
         <div className="grid grid-cols-2 gap-2">
