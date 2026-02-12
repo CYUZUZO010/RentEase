@@ -17,7 +17,6 @@ interface PropertyCardProps {
     available: boolean
   }
 }
-//all the property cards will be displayed with this ui .
 
 export function PropertyCard({ property }: PropertyCardProps) {
   return (
