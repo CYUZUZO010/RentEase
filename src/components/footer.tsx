@@ -58,7 +58,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* For Owners */}
+        
           <div>
             <h3 className="font-semibold mb-4">For Owners</h3>
             <ul className="space-y-2 text-sm">
