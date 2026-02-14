@@ -39,7 +39,6 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  /* Gradient for body background */
   --gradient-start: #141e30;
   --gradient-end: #243b55;
 }
