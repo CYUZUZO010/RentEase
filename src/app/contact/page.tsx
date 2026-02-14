@@ -20,8 +20,6 @@ export default async function AboutPage() {
            </Link>
          
           </div>
-          
-    
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text ">
               Get In Touch With RentEase
