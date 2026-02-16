@@ -17,6 +17,7 @@ async function main() {
     },
   })
 
+  
   console.log("[v0] Created owner user:", owner.email)
 
   // Create sample renter user
