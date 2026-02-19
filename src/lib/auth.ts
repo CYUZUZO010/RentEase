@@ -1,4 +1,4 @@
-// src/lib/auth.ts
+
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import pool from "@/lib/dbPool";
