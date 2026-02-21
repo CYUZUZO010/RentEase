@@ -8,7 +8,6 @@ const features = [
   },
   {
     icon: Shield,
-    
     title: "Integrity",
     description: "We prioritize transparency and honesty in every transaction, ensuring your peace of mind.",
   },
