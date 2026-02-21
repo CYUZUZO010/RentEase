@@ -112,6 +112,7 @@ export function PropertyForm({ property }: PropertyFormProps) {
         </div>
       </div>
 
+      
       <div className="space-y-2">
         <Label htmlFor="imageUrl">Main Image URL</Label>
         <Input
