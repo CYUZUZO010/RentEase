@@ -14,7 +14,7 @@ CREATE TABLE "users" (
     CONSTRAINT "users_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
+
 CREATE TABLE "properties" (
     "id" TEXT NOT NULL,
     "title" TEXT NOT NULL,
