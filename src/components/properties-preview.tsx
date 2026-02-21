@@ -36,6 +36,7 @@ const featuredProperties = [
   },
 ]
 
+
 export function PropertiesPreview() {
   return (
     <section className="py-24">
