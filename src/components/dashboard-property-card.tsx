@@ -14,7 +14,6 @@ import Image from "next/image"
 import { deleteProperty, togglePropertyAvailability } from "@/app/actions/properties"
 import { useState } from "react"
 
-
 interface DashboardPropertyCardProps {
   property: {
     id: string
