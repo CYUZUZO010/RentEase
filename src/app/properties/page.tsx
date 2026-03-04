@@ -68,6 +68,7 @@ export default async function PropertiesPage({
     queryParams.push(Number.parseInt(params.bathrooms))
     paramIndex++
   }
+  
 
   query += ` ORDER BY p."createdAt" DESC`
 
