@@ -49,6 +49,7 @@ export default async function PropertiesPage({
     queryParams.push(Number.parseFloat(params.minPrice))
     paramIndex++
   }
+  
 
   if (params.maxPrice) {
     query += ` AND p.price <= $${paramIndex}`
