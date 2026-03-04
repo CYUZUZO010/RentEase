@@ -15,7 +15,6 @@ interface SearchParams {
   bathrooms?: string
 }
 
-
 export default async function PropertiesPage({
   searchParams,
 }: {
