@@ -10,7 +10,7 @@ import { DashboardPropertyCard } from "@/components/dashboard-property-card"
 
 export default async function DashboardPage() {
   const user = await requireOwner()
-
+  
   const properties = (await sql`
     SELECT * FROM properties
     WHERE "ownerId" = ${user.id}
