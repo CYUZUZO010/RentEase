@@ -8,8 +8,6 @@ import { getCurrentUser } from "@/lib/auth";
 
 export default async function HomePage() {
   const user = await getCurrentUser();
-  
-
   return (
     <div className="min-h-screen">
       <Navbar user={user ? { name: user.name, email: user.email, role: user.role } : null} />
@@ -17,7 +15,6 @@ export default async function HomePage() {
         <HeroSection />
         <FeaturesSection />
         <PropertiesPreview />
-        
         <CTASection />
       </main>
       <Footer />
