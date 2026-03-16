@@ -10,7 +10,6 @@ import { Textarea } from "@/components/ui/textarea"
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
-    
     email: "",
     subject: "",
     message: "",
