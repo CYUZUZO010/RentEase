@@ -13,8 +13,7 @@ export default function ContactForm() {
     email: "",
     subject: "",
     message: "",
-  })
-  //the form of the contacts page 
+  }) 
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
