@@ -31,7 +31,6 @@ export default function ContactForm() {
     // Reset success message after 3 seconds
     setTimeout(() => setSubmitted(false), 3000)
   }
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData((prev) => ({
       ...prev,
