@@ -93,7 +93,6 @@ export default function ContactForm() {
           className="mt-1.5"
         />
       </div>
-      {/*Hndling the message passing to the oewner*/}
       <div>
         <Label htmlFor="message">Message</Label>
         <Textarea
