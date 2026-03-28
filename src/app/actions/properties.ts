@@ -5,8 +5,6 @@ import { requireOwner } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { randomUUID } from "crypto";
-
-
 export async function createProperty(formData: FormData) {
   const user = await requireOwner();
 
