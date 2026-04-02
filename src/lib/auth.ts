@@ -10,7 +10,6 @@ export type User = {
   role: "OWNER" | "USER" | "ADMIN";
 };
 
-// ------------------- Password Helpers -------------------
 export async function hashPassword(password: string): Promise<string> {
   return `hashed_${password}`;
 }
