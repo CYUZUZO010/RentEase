@@ -16,7 +16,7 @@ export function CTASection() {
             Join thousands of satisfied renters who found their perfect property through RentEase. Start your journey
             today.
           </p>
-
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Button size="lg" asChild className="text-base">
               <Link href="/properties" className="border-4">
