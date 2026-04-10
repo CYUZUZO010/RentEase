@@ -1,5 +1,4 @@
 import { Shield, Zap, Heart, TrendingUp } from "lucide-react"
-
 const features = [
   {
     icon: Zap,
