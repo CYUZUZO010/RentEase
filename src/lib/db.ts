@@ -1,5 +1,4 @@
 import postgres from "postgres"
-
 const DB_URL = process.env.DATABASE_URL ?? "postgres://postgres:postgres@localhost:5432/house_rental"
 export const sql = postgres(DB_URL)
 
