@@ -1,5 +1,4 @@
 "use server";
-
 import { sql, type Property } from "@/lib/db";
 import { requireOwner } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
