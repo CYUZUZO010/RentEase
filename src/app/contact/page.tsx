@@ -6,9 +6,8 @@ import { BackButton } from "@/components/ui/back-button"
 import { Building2, Users, Shield, Award } from "lucide-react"
 export default async function AboutPage() {
   const user = await getCurrentUser()
-  
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background"
       <Navbar user={user} />
 
       <main className="pt-24 pb-16">
