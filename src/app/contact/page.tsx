@@ -16,6 +16,7 @@ export default async function AboutPage() {
           <div className="border-3 w-25 h-12 border-border rounded-md cursor-pointer ">
            <Link href="/" className="cursor-pointer">
              <BackButton />
+             
            </Link>
           </div>
           <div className="text-center mb-16">
